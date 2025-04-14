@@ -3,4 +3,14 @@ name = "text-merge-interview"
 version = "0.1.0"
 edition = "2024"
 
+
+[[bin]]
+name = "exploder"
+path = "src/exploder/bin/main.rs"
+
+[[bin]]
+name = "service"
+path = "src/service/bin/main.rs"
+
 [dependencies]
+rand = "0.9.0"
