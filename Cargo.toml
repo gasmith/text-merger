@@ -9,11 +9,8 @@ name = "exploder"
 path = "src/exploder/bin/main.rs"
 
 [[bin]]
-name = "service"
-path = "src/service/bin/main.rs"
+name = "app"
+path = "src/app/bin/main.rs"
 
 [dependencies]
-axum = "0.8.3"
-futures = "0.3.31"
 rand = "0.9.0"
-tokio = { version = "1.44.2", features = ["rt-multi-thread"] }

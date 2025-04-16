@@ -2,7 +2,7 @@ use std::{collections::BTreeMap, fs::File, io::Write};
 
 const BOOK: &str = include_str!("iliad.txt");
 const JAN_01_2000_MS: u64 = 946645200000;
-const REPEAT_N: u64 = 200;
+const REPEAT_N: u64 = 100;
 
 fn write_line(file: &mut File, timestamp: u64, line: &str) {
     writeln!(file, "{timestamp}|{line}").expect("failed write");
